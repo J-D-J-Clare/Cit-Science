@@ -2,7 +2,9 @@
   
 ## Files and descriptions
 FullData.csv -- the full dataset used to estimate baseline rates of accurracy and specific error rates.  
-Full_Model_Data.csv -- the dataset used to evaluate categorical variability in error and for specific modeling excercises.
+  ###column names  
+Full_Model_Data.csv -- the dataset used to evaluate categorical variability in error and for specific modeling excercises.  
+ ###column names  
 TrainPartition.csv -- a portion of Full_Model_Data.csv used to fit glmm screening models.  
 TestPartition.csv -- a portion of Full_Model_Data.csv withheld from model fitting, and used to estimate varied metrics to characterize out of sample predictive performance.
 Other test.csv files -- partitions within specific categories of interest used for more specific out-of-sample model testing
